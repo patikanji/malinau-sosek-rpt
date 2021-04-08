@@ -122,7 +122,7 @@ export default function Observasi() {
 
   return (
     <div style={{ padding: '1rem' }}>
-      <h2>Persepsi</h2>
+      <h2>Persalinan dll</h2>
       <select
         defaultValue={kecamatan}
         onChange={e => {
@@ -174,16 +174,16 @@ export default function Observasi() {
               <th>nama</th>
               <th>kecamatan</th>
               <th>desa</th>
-              <th>Konsen</th>
-              <th>EkonomiLokal</th>
-              <th>LapanganKerja</th>
-              <th>Lingkungan</th>
-              <th>Kesmas</th>
-              <th>Kepekaan</th>
-              <th>Infrastruktur</th>
-              <th>Adat</th>
-              <th>GotongRoyong</th>
-              <th>Sikap</th>
+              <th>persalinan</th>
+              <th>asi</th>
+              <th>rawatBayi</th>
+              <th>rawatBayiInfo</th>
+              <th>airBersih</th>
+              <th>cuciTangan</th>
+              <th>nyamuk3m</th>
+              <th>bersayur</th>
+              <th>olahraga</th>
+              <th>merokok</th>
             </tr>
           {getData().map((d,index) => (
             <tr key={d.id}>
