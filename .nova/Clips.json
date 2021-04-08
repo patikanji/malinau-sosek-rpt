@@ -1,0 +1,10 @@
+{
+  "clips" : [
+    {
+      "content" : ";\n$0",
+      "name" : "Semis",
+      "scope" : "editor",
+      "shortcut" : "cmd-shift-return"
+    }
+  ]
+}

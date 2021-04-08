@@ -1,0 +1,50 @@
+sqlite> select distinct observasiLangit from Sosek;
+Bersih
+Tidak ada
+Kotor, sulit dibersihkan dan rawan kecelakaan
+
+sqlite>
+sqlite>
+sqlite> select distinct observasiLangit from Sosek;
+Bersih
+Tidak ada
+Kotor, sulit dibersihkan dan rawan kecelakaan
+
+sqlite> select distinct observasiDinding from Sosek;
+Bukan tembok (terbuat dari anyaman bambu/papan)
+Semi permanen / tanpa plester / papan tidak kedap air
+Permanen / dengan plester / papan kedap air
+
+sqlite> select distinct observasiLantai from Sosek;
+Papan dekat tanah, plesteran retak dan berdebu
+Diplester/ubin/keramik/papan (rumah panggung)
+
+sqlite> select distinct observasiJendelaKamar from Sosek;
+Semua ada
+Tidak ada
+Sebagian ada
+
+sqlite> select distinct observasiJendelaRuang from Sosek;
+Semua ada
+Sebagian ada
+Tidak ada
+
+sqlite> select distinct observasiVentilasi from Sosek;
+Lebih besar atau sama dengan 10% luas lantai
+Sebagian Ruangan tanpa ventilasi / kurang dari 10% luas lantai
+Tidak ada
+
+sqlite> select distinct observasiPencahayaan from Sosek;
+Terang, tidak silau, nyaman untuk membaca
+Kurang terang, tidak nyaman untuk membaca dengan normal
+Tidak terang (tidak dapat digunakan untuk membaca)
+
+sqlite> select distinct observasiAsap from Sosek;
+Lubang Ventilasi dapur lbh besar atau sama dengan 10% Luas lantai
+Tidak ada
+
+sqlite> select distinct observasiKepadatan from Sosek;
+Ruang tidur kurang dari 8 meter untuk lebih dari 2 orang
+Ruang tidur lebih 8 meter digunakan untuk tidur oleh 2 orang
+
+sqlite>
