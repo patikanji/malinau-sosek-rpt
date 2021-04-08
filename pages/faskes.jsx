@@ -68,8 +68,9 @@ export default function Observasi() {
       if (item[topik] === "" || item[topik].length === 0 || item[topik][0] === "") {
         obj._BLANK++
       } else {
-        const key = item[topik]
+        const key = Array.isArray(item[topik]) ? item[topik].sort().join(", ") : item[topik]
         if (obj[key] === undefined) obj[key] = 0
+        console.log(key)
         obj[key]++
       }
     })
