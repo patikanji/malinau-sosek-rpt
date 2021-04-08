@@ -41,6 +41,27 @@ export default function Home() {
           >
             <h3>Persalinan dll &rarr;</h3>
           </a>
+
+          <a
+            href="/faskes"
+            className={styles.card}
+          >
+            <h3>Faskes dll &rarr;</h3>
+          </a>
+
+          <a
+            href="/air-dll"
+            className={styles.card}
+          >
+            <h3>Sumber air dll &rarr;</h3>
+          </a>
+
+          <a
+            href="/belanja"
+            className={styles.card}
+          >
+            <h3>Pendapatan &amp;Belanja &rarr;</h3>
+          </a>
         </div>
       </main>
 
