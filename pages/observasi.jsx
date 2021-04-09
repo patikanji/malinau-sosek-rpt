@@ -70,7 +70,7 @@ export default function Observasi() {
       } else {
         const key = Array.isArray(item[topik]) ? item[topik].sort().join(", ") : item[topik]
         if (obj[key] === undefined) obj[key] = 0
-        console.log(key)
+        // console.log(key)
         obj[key]++
       }
     })
