@@ -167,8 +167,8 @@ export default function Observasi() {
               <th>desa</th>
               <th>pendapatanPerBulan</th>
               <th>pengeluaranPerBulan</th>
-              <th>df_sumberPendapatan</th>
-              <th>df_sumberPengeluaran</th>
+              <th>sumberPendapatan</th>
+              <th>sumberPengeluaran</th>
             </tr>
           {getData().map((d,index) => (
             <tr key={d.id}>
@@ -179,8 +179,8 @@ export default function Observasi() {
               <td>{d.desa}</td>
               <td>{d.pendapatanPerBulan}</td>
               <td>{d.pengeluaranPerBulan}</td>
-              <td>{d.df_sumberPendapatan.sort().join(", ")}</td>
-              <td>{d.df_sumberPengeluaran.sort().join(", ")}</td>
+              <td>{d.sumberPendapatan.sort().join(", ")}</td>
+              <td>{d.sumberPengeluaran.sort().join(", ")}</td>
             </tr>
           ))}
           </tbody>
@@ -189,9 +189,9 @@ export default function Observasi() {
 
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {/* <TabelTopik topik="pendapatanPerBulan" /> */}
-        <TabelTopik topik="df_sumberPendapatan" />
+        <TabelTopik topik="sumberPendapatan" />
         {/* <TabelTopik topik="pengeluaranPerBulan" /> */}
-        <TabelTopik topik="df_sumberPengeluaran" />
+        <TabelTopik topik="sumberPengeluaran" />
         {/* <TabelTopik topik="kartuKISInfo" /> */}
       </div>
       <br/>
@@ -229,8 +229,8 @@ export default function Observasi() {
 /*
 
 pendapatanPerBulan
-df_sumberPendapatan
+sumberPendapatan
 pengeluaranPerBulan
-df_sumberPengeluaran
+sumberPengeluaran
 
 */

@@ -1,5 +1,20 @@
 import { useState } from 'react'
-import sosekFinal from '../lib/sosek-final.json'
+import sosekFinal from '../lib/sosek-final-abrv.json'
+
+/*
+DELETE 1616509617118-5C5D28AAFB	ROMI BIAT
+
+ADD 1618041386720-E234318FC5
+
+GANTI
+  Budi bujung = Rian Tubu   1618047795855-92E7967DFE
+  Agustina musa = paking    1618049668906-CFF3C2C78D
+  Ibung Alang = Long pada   1616977015912-194053B1AE
+
+
+*/
+
+
 
 function daftarDesa() {
   let array = []
@@ -201,9 +216,9 @@ export default function Responden() {
           </tbody>
         </table>
       </div>
-      
-      
-      
+
+
+
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <TabelTopik topik="gender" />
         <TabelTopik topik="hubungan" />

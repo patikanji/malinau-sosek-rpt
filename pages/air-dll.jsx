@@ -182,15 +182,15 @@ export default function Observasi() {
               <td>{d.nama}</td>
               <td>{d.kecamatan}</td>
               <td>{d.desa}</td>
-              <td>{d.df_sumberAirMandi.join(", ")}</td>
-              <td>{d.df_sumberAirMinum.join(", ")}</td>
-              <td>{d.df_sumberAirMasak.join(", ")}</td>
-              <td>{d.df_sumberAirProblem.join(", ")}</td>
-              <td>{d.df_sumberListrik.join(", ")}</td>
-              <td>{d.df_kelolaSampah.join(", ")}</td>
-              <td>{d.df_bab.join(", ")}</td>
-              <td>{d.df_tinja.join(", ")}</td>
-              <td>{d.df_limbahCair.join(", ")}</td>
+              <td>{d.sumberAirMandi.join(", ")}</td>
+              <td>{d.sumberAirMinum.join(", ")}</td>
+              <td>{d.sumberAirMasak.join(", ")}</td>
+              <td>{d.sumberAirProblem.join(", ")}</td>
+              <td>{d.sumberListrik.join(", ")}</td>
+              <td>{d.kelolaSampah.join(", ")}</td>
+              <td>{d.bab.join(", ")}</td>
+              <td>{d.tinja.join(", ")}</td>
+              <td>{d.limbahCair.join(", ")}</td>
             </tr>
           ))}
           </tbody>
@@ -198,15 +198,15 @@ export default function Observasi() {
       </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        <TabelTopik topik="df_sumberAirMandi" />
-        <TabelTopik topik="df_sumberAirMinum" />
-        <TabelTopik topik="df_sumberAirMasak" />
-        <TabelTopik topik="df_sumberAirProblem" />
-        <TabelTopik topik="df_sumberListrik" />
-        <TabelTopik topik="df_kelolaSampah" />
-        <TabelTopik topik="df_bab" />
-        <TabelTopik topik="df_tinja" />
-        <TabelTopik topik="df_limbahCair" />
+        <TabelTopik topik="sumberAirMandi" />
+        <TabelTopik topik="sumberAirMinum" />
+        <TabelTopik topik="sumberAirMasak" />
+        <TabelTopik topik="sumberAirProblem" />
+        <TabelTopik topik="sumberListrik" />
+        <TabelTopik topik="kelolaSampah" />
+        <TabelTopik topik="bab" />
+        <TabelTopik topik="tinja" />
+        <TabelTopik topik="limbahCair" />
       </div>
       <br/>
       <div>

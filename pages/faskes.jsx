@@ -178,7 +178,7 @@ export default function Observasi() {
               <th>frekuensiBerobat</th>
               <th>kondisiFaskes</th>
               <th>kartuKIS</th>
-              <th>df_tempatBerobat</th>
+              <th>tempatBerobat</th>
             </tr>
           {getData().map((d,index) => (
             <tr key={d.id}>
@@ -190,7 +190,7 @@ export default function Observasi() {
               <td>{d.frekuensiBerobat}</td>
               <td>{d.kondisiFaskes}</td>
               <td>{d.kartuKIS}</td>
-              <td>{d.df_tempatBerobat.join(", ")}</td>
+              <td>{d.tempatBerobat.join(", ")}</td>
             </tr>
           ))}
           </tbody>
@@ -201,7 +201,7 @@ export default function Observasi() {
         <TabelTopik topik="frekuensiBerobat" />
         <TabelTopik topik="kondisiFaskes" />
         <TabelTopik topik="kartuKIS" />
-        <TabelTopik topik="df_tempatBerobat" />
+        <TabelTopik topik="tempatBerobat" />
         {/* <TabelTopik topik="kartuKISInfo" /> */}
       </div>
       <br/>
