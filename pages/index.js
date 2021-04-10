@@ -24,6 +24,14 @@ export default function Home() {
             <h3>Responden &rarr;</h3>
           </a>
 
+          <a href="/rumah" className={styles.card}>
+            <h3>Rumah Tinggal &rarr;</h3>
+          </a>
+
+          <a href="/tanah" className={styles.card}>
+            <h3>Aset Tanah &rarr;</h3>
+          </a>
+
           <a href="/observasi" className={styles.card}>
             <h3>Observasi &rarr;</h3>
           </a>
@@ -61,6 +69,10 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Pendapatan &amp;Belanja &rarr;</h3>
+          </a>
+
+          <a href="/hasil-alam" className={styles.card} >
+            <h3>Hasil Alam &rarr;</h3>
           </a>
         </div>
       </main>
