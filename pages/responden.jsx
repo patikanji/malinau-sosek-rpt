@@ -177,7 +177,7 @@ export default function Responden() {
               <th>nama</th>
               <th>kecamatan</th>
               <th>desa</th>
-              {/* <th>enum</th> */}
+              <th>enumerator</th>
               <th>gender</th>
               <th>umur</th>
               <th>anggota</th>
@@ -198,7 +198,7 @@ export default function Responden() {
               <td>{d.nama}</td>
               <td>{d.kecamatan}</td>
               <td>{d.desa}</td>
-              {/* <td>{d.enumerator}</td> */}
+              <td>{d.enumerator}</td>
               <td>{d.gender}</td>
               <td>{d.umur}</td>
               <td>{d.anggota.length}</td>

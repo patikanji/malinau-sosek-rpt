@@ -210,6 +210,7 @@ export default function Observasi() {
               <th>nama</th>
               <th>kecamatan</th>
               <th>desa</th>
+              <th>enumerator</th>
               <th>pertanian</th>
               <th>ternak</th>
               <th>ikan</th>
@@ -223,6 +224,7 @@ export default function Observasi() {
               <td>{d.nama}</td>
               <td>{d.kecamatan}</td>
               <td>{d.desa}</td>
+              <td>{d.enumerator}</td>
               <td>{d.hasilPertanian.length > 0 ? 'ADA' : '-'}</td>
               <td>{d.hasilTernak.length > 0 ? 'ADA' : '-'}</td>
               <td>{d.hasilIkan.length > 0 ? 'ADA' : '-'}</td>
@@ -304,6 +306,7 @@ function TabelHasilAlam({ hasil, title }) {
             <th>id</th>
             <th>nama</th>
             <th>desa</th>
+            {/* <th>enumerator</th> */}
             <th>jenis</th>
             <th>satuan</th>
             <th>untuk</th>
@@ -318,6 +321,7 @@ function TabelHasilAlam({ hasil, title }) {
               <td>{item.id}</td>
               <td>{item.nama}</td>
               <td>{item.desa}</td>
+              {/* <td>{item.enumerator}</td> */}
               <td>{item.jenis}</td>
               <td>{item.satuan ? item.satuan : ''}</td>
               <td>{item.untuk}</td>
