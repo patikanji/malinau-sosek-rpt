@@ -82,12 +82,12 @@ export default function Pekerjaan() {
     let table = {
       satu_pekerjaan: 0,
       dua_pekerjaan: 0,
-      tiga_pekerjaan: 0
+      tiga_pekerjaan_atau_lebih: 0
     }
     getData().forEach(d => {
       if (d.jmlPekerjaan == 1) table.satu_pekerjaan++
       else if (d.jmlPekerjaan == 2) table.dua_pekerjaan++
-      else table.tiga_pekerjaan++
+      else table.tiga_pekerjaan_atau_lebih++
     })
     return table
   }
