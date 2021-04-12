@@ -24,6 +24,10 @@ export default function Home() {
             <h3>Responden &rarr;</h3>
           </a>
 
+          <a href="/pekerjaan" className={styles.card}>
+            <h3>Jenis-jenis Pekerjaan &rarr;</h3>
+          </a>
+
           <a href="/anggota" className={styles.card}>
             <h3>Anngota Keluarga &rarr;</h3>
           </a>
