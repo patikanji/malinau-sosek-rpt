@@ -176,16 +176,16 @@ export default function Observasi() {
               <th>kecamatan</th>
               <th>desa</th>
               <th>enumerator</th>
-              <th>Konsen</th>
-              <th>EkonomiLokal</th>
-              <th>LapanganKerja</th>
-              <th>Lingkungan</th>
-              <th>Kesmas</th>
-              <th>Kepekaan</th>
-              <th>Infrastruktur</th>
-              <th>Adat</th>
-              <th>GotongRoyong</th>
-              <th>Sikap</th>
+              <th>Konsen</th><th>Alasan / Info</th>
+              <th>EkonomiLokal</th><th>Alasan / Info</th>
+              <th>LapanganKerja</th><th>Alasan / Info</th>
+              <th>Lingkungan</th><th>Alasan / Info</th>
+              <th>Kesmas</th><th>Alasan / Info</th>
+              <th>Kepekaan</th><th>Alasan / Info</th>
+              <th>Infrastruktur</th><th>Alasan / Info</th>
+              <th>Adat</th><th>Alasan / Info</th>
+              <th>GotongRoyong</th><th>Alasan / Info</th>
+              <th>Sikap</th><th>Alasan / Info</th>
             </tr>
           {getData().map((d,index) => (
             <tr key={d.id}>
@@ -195,16 +195,16 @@ export default function Observasi() {
               <td>{d.kecamatan}</td>
               <td>{d.desa}</td>
               <td>{d.enumerator}</td>
-              <td>{d.psKonsen}</td>
-              <td>{d.psEkonomiLokal}</td>
-              <td>{d.psLapanganKerja}</td>
-              <td>{d.psLingkungan}</td>
-              <td>{d.psKesmas}</td>
-              <td>{d.psKepekaan}</td>
-              <td>{d.psInfrastruktur}</td>
-              <td>{d.psAdat}</td>
-              <td>{d.psGotongRoyong}</td>
-              <td>{d.psSikap}</td>
+              <td>{d.psKonsen}</td><td>{d.psKonsenInfo}</td>
+              <td>{d.psEkonomiLokal}</td><td>{d.psEkonomiLokalInfo}</td>
+              <td>{d.psLapanganKerja}</td><td>{d.psLapanganKerjaInfo}</td>
+              <td>{d.psLingkungan}</td><td>{d.psLingkunganInfo}</td>
+              <td>{d.psKesmas}</td><td>{d.psKesmasInfo}</td>
+              <td>{d.psKepekaan}</td><td>{d.psKepekaanInfo}</td>
+              <td>{d.psInfrastruktur}</td><td>{d.psInfrastrukturInfo}</td>
+              <td>{d.psAdat}</td><td>{d.psAdatInfo}</td>
+              <td>{d.psGotongRoyong}</td><td>{d.psGotongRoyongInfo}</td>
+              <td>{d.psSikap}</td><td>{d.psSikapInfo}</td>
             </tr>
           ))}
           </tbody>
